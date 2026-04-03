@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/daxhill-website">
       <div className="App">
         <Navigation />
         <Routes>
