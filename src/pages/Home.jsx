@@ -2,13 +2,6 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
-  const credentials = [
-    { stat: "3x", label: "NCAA Champion" },
-    { stat: "8x", label: "All-American" },
-    { stat: "2x", label: "World University Games Gold" },
-    { stat: "81%", label: "Team Records Held" }
-  ];
-
   const products = [
     {
       name: "Club Fundamentals",
@@ -50,7 +43,7 @@ function Home() {
               From NCAA Champion to<br />Your Personal Technique Coach
             </h1>
             <p className="hero-subtitle">
-              Trained by Eddie Reese at Texas. Now teaching the system that turned B swimmers into record-breakers.
+              Trained by Eddie Reese at Texas. Now teaching the system that turns B swimmers into record-breakers.
             </p>
             <div className="hero-cta">
               <a href="https://swimnerd.com/shop/dax-hill" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
@@ -64,45 +57,43 @@ function Home() {
         </div>
       </section>
 
-      {/* Credentials */}
-      <section className="credentials section">
+      {/* Testimonials */}
+      <section className="testimonials section">
         <div className="container">
-          <div className="credentials-grid">
-            {credentials.map((item, index) => (
-              <div key={index} className="credential-card">
-                <div className="credential-stat">{item.stat}</div>
-                <div className="credential-label">{item.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Different */}
-      <section className="why-different section">
-        <div className="container">
-          <h2 className="section-title">Why Reykli is Different</h2>
+          <h2 className="section-title">What Swimmers & Coaches Say</h2>
           <p className="section-subtitle">
-            Swimming had no skill progression system. So I built one.
+            Real results from the Reykli system
           </p>
           
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">🎯</div>
-              <h3>Proven System</h3>
-              <p>My swimmers held 81% of team records at the club I coached</p>
+          <div className="testimonials-grid">
+            <div className="testimonial-card">
+              <div className="testimonial-text">
+                "[Add actual testimonial here - athlete name, club, time improvement]"
+              </div>
+              <div className="testimonial-author">
+                <strong>Athlete Name</strong>
+                <span>Club Name • Before/After Times</span>
+              </div>
             </div>
             
-            <div className="feature-card">
-              <div className="feature-icon">📈</div>
-              <h3>Real Results</h3>
-              <p>Turned lifetime B swimmers into AA/AAA performers</p>
+            <div className="testimonial-card">
+              <div className="testimonial-text">
+                "[Add actual testimonial here - coach feedback on system]"
+              </div>
+              <div className="testimonial-author">
+                <strong>Coach Name</strong>
+                <span>Team Name • Role</span>
+              </div>
             </div>
             
-            <div className="feature-card">
-              <div className="feature-icon">🏆</div>
-              <h3>Championship Pedigree</h3>
-              <p>Learned from Eddie Reese, David Marsh, and Olympic champions</p>
+            <div className="testimonial-card">
+              <div className="testimonial-text">
+                "[Add actual testimonial here - parent perspective on results]"
+              </div>
+              <div className="testimonial-author">
+                <strong>Parent Name</strong>
+                <span>Swimmer's Club • Age Group</span>
+              </div>
             </div>
           </div>
         </div>
