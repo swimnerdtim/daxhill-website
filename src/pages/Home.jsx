@@ -68,31 +68,31 @@ function Home() {
           <div className="testimonials-grid">
             <div className="testimonial-card">
               <div className="testimonial-text">
-                "[Add actual testimonial here - athlete name, club, time improvement]"
+                "After a year of asking my son's coach to help fix his butterfly, they couldn't - it just didn't click. Dax showed him a way to get the skill he needed. His coach said 'this is the best I have ever seen you swim fly.' Now he's so confident about it."
               </div>
               <div className="testimonial-author">
-                <strong>Athlete Name</strong>
-                <span>Club Name • Before/After Times</span>
+                <strong>Parent</strong>
+                <span>Competitive Swimmer • Butterfly Technique</span>
               </div>
             </div>
             
             <div className="testimonial-card">
               <div className="testimonial-text">
-                "[Add actual testimonial here - coach feedback on system]"
+                "This is world class breakdown!! Club coaches would be stupid not to take advantage of this! Too many don't focus on technique - still just hammering out yardage. The videos are extremely digestible too. Well done man!!"
               </div>
               <div className="testimonial-author">
-                <strong>Coach Name</strong>
-                <span>Team Name • Role</span>
+                <strong>Club Coach</strong>
+                <span>USA Swimming • Technique Development</span>
               </div>
             </div>
             
             <div className="testimonial-card">
               <div className="testimonial-text">
-                "[Add actual testimonial here - parent perspective on results]"
+                "I'm watching right now. I'm creating a lot of hype in my club because of your content. Managed to help people I never knew I could help. I appreciate what you do man."
               </div>
               <div className="testimonial-author">
-                <strong>Parent Name</strong>
-                <span>Swimmer's Club • Age Group</span>
+                <strong>Coach</strong>
+                <span>Competitive Swimming Club</span>
               </div>
             </div>
           </div>
