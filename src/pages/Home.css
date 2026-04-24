@@ -214,6 +214,13 @@
   margin-bottom: 16px;
 }
 
+.nightswim-logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 16px;
+}
+
 .badge-text {
   color: white;
   font-size: 18px;

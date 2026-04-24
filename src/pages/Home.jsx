@@ -155,7 +155,7 @@ function Home() {
             </div>
             <div className="night-swim-visual">
               <div className="podcast-badge">
-                <span className="badge-icon">🎙️</span>
+                <img src="/nightswim-logo.png" alt="Night Swim Podcast" className="nightswim-logo" />
                 <span className="badge-text">NEW EPISODES<br/>DAILY</span>
               </div>
             </div>
