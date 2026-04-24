@@ -19,8 +19,8 @@ function Footer() {
 
           <div className="footer-section">
             <h4>Connect</h4>
-            <a href="https://twitter.com/daxhill5" target="_blank" rel="noopener noreferrer">Twitter</a>
-            <a href="https://www.linkedin.com/in/dax-hill-72093332/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.youtube.com/@reykli" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.instagram.com/reykli/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <a href="https://nightswimpod.com" target="_blank" rel="noopener noreferrer">Night Swim Podcast</a>
           </div>
 
