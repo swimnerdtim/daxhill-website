@@ -40,7 +40,7 @@ function Home() {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              From NCAA Champion to<br />Your Personal Technique Coach
+              Your Personal Technique Coach
             </h1>
             <p className="hero-subtitle">
               Trained by Eddie Reese at Texas. Now teaching the system that turns B swimmers into record-breakers.
