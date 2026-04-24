@@ -5,7 +5,7 @@ function Programs() {
     {
       name: "Free Butterfly Technique",
       price: "FREE",
-      type: "Lead Magnet",
+      type: "Free Course",
       description: "Essential butterfly techniques taught at the college and high-end club level",
       features: [
         "Club & college level technique",
